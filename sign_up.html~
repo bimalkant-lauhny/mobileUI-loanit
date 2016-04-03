@@ -1,0 +1,50 @@
+<!Doctype HTML>
+
+<html>
+
+	<head>
+		
+		<title>Sign Up</title>
+		
+		<!-- Include meta tag to ensure proper rendering and touch zooming -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!--
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		-->
+		
+		<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+		<script src="jquery.min.js"></script>
+		<script src="jquery.mobile-1.4.5.min.js"></script>
+		<link rel="stylesheet" href="font-awesome.min.css">
+
+	</head>
+
+	<body>
+
+		<div data-role="page" data-dialog="true">
+		
+			<form>
+			  <div data-role="header" style="background-color:#A82400;color:#E9E9E9;">
+				<h1>Sign Up</h1>
+			  </div>
+
+			  <div data-role="main" class="ui-content">
+				E-mail: <input type="text" name="email" value="user@example.com"><br>
+				Password: <input type="password" name="passwd">
+			  </div>
+
+			  <div data-role="footer">
+				<center>
+					<button class="ui-btn ui-corner-all">Submit</button>
+				</center>
+			  </div>
+			</form>
+		
+		</div>
+	</body>
+
+</html>

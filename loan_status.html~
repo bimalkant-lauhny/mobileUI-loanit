@@ -1,0 +1,68 @@
+<!Doctype HTML>
+
+<html>
+
+	<head>
+	
+		<title>Profile</title>
+		
+		<!-- Include meta tag to ensure proper rendering and touch zooming -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!--
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		-->
+		
+		<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+		<script src="jquery.min.js"></script>
+		<script src="jquery.mobile-1.4.5.min.js"></script>
+		<link rel="stylesheet" href="font-awesome.min.css">
+
+		<style>
+	
+			.ui-icon-myicon:after {
+			background-image: url("iconimg.svg");
+			}
+			/* Fallback */
+			.ui-nosvg .ui-icon-myicon:after {
+			background-image: url("iconimg.png");
+			}
+			
+		</style>
+	
+	</head>
+
+	<body>
+
+		<div data-role="page">
+
+		  
+		  <div data-role="header">
+		  		<div data-role="navbar">
+					<ul>
+					  <li><a href="feeds.html" class="ui-btn">Feeds</a></li>
+					  <li><a href="borrow.html">Borrow</a></li>
+					  <li><a href="">Profile</a></li>
+					</ul>
+				</div>
+		  </div>
+
+		  <div data-role="main" class="ui-content">
+			<p>Hi</p>
+			<a href="main.html">Home</a>
+		  </div>
+
+		   <div data-role="footer">
+		   <center>
+		  	<a href="#" class="ui-btn ui-btn-fa ui-btn-all ui-btn-icon-left" data-rel="back"><i class="fa fa-camera-retro"></i>About Us</a>
+		  		<a href="main.html" class="ui-btn ui-icon-info ui-btn-all ui-btn-icon-right ui-btn-b">Info</a>
+			</center>
+		  </div>
+
+		</div>
+	</body>
+
+</html>

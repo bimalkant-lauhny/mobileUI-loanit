@@ -1,0 +1,87 @@
+<!Doctype HTML>
+
+<html>
+
+	<head>
+	
+		<title>Borrow</title>
+		
+		<!-- Include meta tag to ensure proper rendering and touch zooming -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!--
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		-->
+		
+		<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+		<script src="jquery.min.js"></script>
+		<script src="jquery.mobile-1.4.5.min.js"></script>
+		<link rel="stylesheet" href="font-awesome.min.css">
+		
+		<style>
+	
+			.ui-icon-myicon:after {
+			background-image: url("iconimg.svg");
+			}
+			/* Fallback */
+			.ui-nosvg .ui-icon-myicon:after {
+			background-image: url("iconimg.png");
+			}
+			
+		</style>
+
+	</head>
+
+	<body>
+
+		<div data-role="page">
+
+		  
+		  <div data-role="header">
+		  		<div class="nav" data-role="navbar">
+					<ul>
+					  <li><a href="feeds.html" class="ui-btn ui-btn-icon-left ui-icon-grid">Feeds</a></li>
+					  <li><a href="#" class="ui-btn ui-btn-icon-left ui-icon-tag">Borrow</a></li>
+					  <li><a href="profile.html" class="ui-btn ui-btn-icon-left ui-icon-user">Profile</a></li>
+					</ul>
+				</div>
+		  </div>
+
+		  <div data-role="main" class="ui-content">
+			
+			<form>
+				<label style="font-family: 'GeoSansLite';font-size:1em;" for="amount">Amount:</label>
+				<input style="font-family: 'GeoSansLite';font-size:1em;" type="number" name="amount" min="10" max="3000"><br>
+				
+				<label style="font-family: 'GeoSansLite';font-size:1em;"for="interest">Max Interest:</label>
+				<input style="font-family: 'GeoSansLite';font-size:1em;"type="number" name="interest" min="1" max="15">
+				
+				<label style="font-family: 'GeoSansLite';font-size:1em;"for="req_deadline">Required Before (dd-mm-yy):</label>
+				<input style="font-family: 'GeoSansLite';font-size:1em;"type="date" name="req_deadline">
+				
+				<label style="font-family: 'GeoSansLite';font-size:1em;"for="repay_within">Repayment Within (dd-mm-yy):</label>
+				<input style="font-family: 'GeoSansLite';font-size:1em;"type="date" name="repay_within">
+				
+				<center>
+					<input type="Submit" value="Submit" class="ui-btn ui-corner-all">
+				</center>
+				
+			</form>
+			
+		  </div>
+
+		   <div  style="position:fixed; bottom:0;width:100%;" data-role="footer">
+		   <center>
+		  		<a href="about_us.html" style="margin:1em 2em 1em 2em;" class="ui-btn ui-icon-eye ui-corner-all ui-btn-icon-left ui-btn-b">About Us</a>
+		  		<a href="borrow_pop.html" style="margin:1em 2em 1em 2em;" class="ui-btn ui-icon-info ui-corner-all ui-btn-icon-right ui-btn-b">Info</a>
+		  </center>
+		  </div>
+
+		</div>
+		
+	</body>
+
+</html>

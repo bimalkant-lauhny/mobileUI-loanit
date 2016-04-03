@@ -1,0 +1,48 @@
+<!Doctype HTML>
+
+<html>
+
+	<head>
+		
+		<!-- Include meta tag to ensure proper rendering and touch zooming -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Include jQuery Mobile stylesheets -->
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+		<!-- Include the jQuery library -->
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+		<!-- Include the jQuery Mobile library -->
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+	</head>
+
+	<body>
+
+		<div data-role="page">
+
+		  
+		  <div data-role="header">
+		  		<div data-role="navbar">
+					<ul>
+					  <li><a href="" class="">Feeds</a></li>
+					  <li><a href="#anylink">Borrow</a></li>
+					  <li><a href="#anylink">Loan Status</a></li>
+					</ul>
+				</div>
+		  </div>
+
+		  <div data-role="main" class="ui-content">
+			<p>Hi</p>
+			<a href="main.html">Home</a>
+		  </div>
+
+		  <div data-role="footer">
+			<<a href="main.html" class="ui-btn ui-icon-home ui-btn-icon-right ui-btn-b">Home</a>
+		  </div>
+
+		</div>
+	</body>
+
+</html>

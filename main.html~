@@ -1,0 +1,76 @@
+<!Doctype HTML>
+
+<html>
+
+	<head>
+		
+		<title>Loan_Ranger</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!--
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		-->
+		
+		<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+		<script src="jquery.min.js"></script>
+		<script src="jquery.mobile-1.4.5.min.js"></script>
+		<link rel="stylesheet" href="font-awesome.min.css">
+	
+		<style>
+			@font-face {
+				font-family: "GeoSansLite"; /*a name to be used later*/
+				src: url("fonts/GeosansLight.ttf"); /*URL to font*/
+			}
+			
+			@font-face {
+				font-family: "Break"; /*a name to be used later*/
+				src: url("fonts/master_of_break.ttf"); /*URL to font*/
+			}
+			
+			@font-face {
+				font-family: "BasicTitle"; /*a name to be used later*/
+				src: url("fonts/basictitlefont.ttf"); /*URL to font*/
+			}
+		</style>	
+	</head>
+	
+
+	<body>
+	
+		<div data-role="page" style="background: url(covers/cover_page.gif);background-position: center center;background-repeat: no-repeat;background-attachment: fixed;background-size: cover;">
+			
+		
+		
+		  <div data-role="main">
+		  
+		  
+		  	<div style="text-align:center;">
+					<h1 style="margin:5% 0 0 0;font-family:'BasicTitle';font-weight:bold;font-size:4em;color:#FFFFFF;letter-spacing: 2px;text-shadow: 5px 5px 5px #000000;">Dhan... Dey</h1>
+				
+				<div style="color:#A82400;font-weight:bold;position:fixed; bottom:30%;left:-2%;width:100%;font-family:'GeoSansLite';font-size:1.5em;">
+					<ul style="list-style:none;";>
+						<li>Easy, Fast & Secure Loans</li>
+						<li>Community Driven Client</li>
+						<li>Flexible Interest Rates</li>
+					</ul>
+				</div>
+			</div>
+			
+			<center>
+				<div style="position:fixed; bottom:0;width:100%;">
+				<a href="log_in.html" class="ui-btn ui-btn-inline ui-btn-b ui-corner-all ui-icon-lock ui-btn-icon-left">Log In</a>
+				<a href="sign_up.html" class="ui-btn ui-btn-inline ui-btn-b ui-icon-user ui-btn-icon-left ui-corner-all">Sign Up</a>
+				</div>
+			</center>
+
+		</div>
+		
+		</div>
+
+	</body>
+
+</html>

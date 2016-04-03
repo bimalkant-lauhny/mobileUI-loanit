@@ -1,0 +1,85 @@
+<!Doctype HTML>
+
+<html>
+<!-- red FD3542-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">-->
+	<head>
+		
+		<title>Log In</title>
+		
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!--
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		-->
+		
+		<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+		<script src="jquery.min.js"></script>
+		<script src="jquery.mobile-1.4.5.min.js"></script>
+		<link rel="stylesheet" href="font-awesome.min.css">
+		
+		<style>
+		
+			@font-face {
+				font-family: "GeoSansLite"; /*a name to be used later*/
+				src: url("fonts/GeosansLight.ttf"); /*URL to font*/
+			}
+			
+			@font-face {
+				font-family: "Break"; /*a name to be used later*/
+				src: url("fonts/master_of_break.ttf"); /*URL to font*/
+			}
+			
+			@font-face {
+				font-family: "BasicTitle"; /*a name to be used later*/
+				src: url("fonts/basictitlefont.ttf"); /*URL to font*/
+			}
+			
+			@font-face {
+				font-family: "Quicksand"; /*a name to be used later*/
+				src: url("fonts/Quicksand_Book.otf"); /*URL to font*/
+			}
+			
+			.geo-font{
+				font-family: "GeoSansLite";
+				font-size: 1.5em;
+			}
+			
+		</style>
+		
+	</head>
+
+	<body>
+	
+		<div data-role="page" data-dialog="true">
+			 <form method="post" action="demoform.asp">
+			 
+			  <div style="background-color:#A82400;color:#E9E9E9;"data-role="header">
+				<h1 style="font-family: 'GeoSansLite';font-size:1.5em;">Log In</h1>
+			  </div>
+			  <div data-role="main" class="ui-content">
+				
+				<label style="font-family: 'GeoSansLite';font-size:1em;" for="email">E-mail:</label>
+				<input style="font-family: 'GeoSansLite';font-size:1em;" type="email" name="email" value="user@example.com"><br>
+				
+				<label style="font-family: 'GeoSansLite';font-size:1em;"for="password">Password:</label>
+				<input style="font-family: 'GeoSansLite';font-size:1em;"type="password" name="passwd" value="12345678">
+				
+			  </div>
+
+			  <div style="background-color:#A82400;" data-role="footer">
+			 	<center>
+					<input type="Submit" value="Submit" class="ui-btn ui-corner-all">
+				</center>
+			  </div>
+			  
+			</form>
+		</div>
+
+	</body>
+
+</html>
